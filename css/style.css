@@ -94,10 +94,13 @@ button:hover {
 .logo img {
     height: 75px;
 }
-.logo-name a{
+.logo-name {
     font-family: 'Oswald', 'Arial Narrow', 'Helvetica', 'Arial', 'sans-serif' !important;
     color: var(--color-two);
     font-size: 20px;
+}
+.logo-name a{
+    color: var(--color-two);
 }
 .nav-list {
     display: flex;
@@ -114,16 +117,22 @@ button:hover {
     color: var(--color-bg);
     font-size: 20px;
 }
+.nav-item a:hover{
+    color: var(--color-primary);
+}
 .nav-list :hover{
     background: var(--color-two);
 }
-
 .nav-link-hover{
     background: var(--color-two);
 }
+#head {
+    color: var(--color-primary);
+}
+
+
 
 /*home*/
-
 .welcome {
     margin-top: 95px;
     background-color: var(--color-primary);
@@ -209,7 +218,7 @@ button:hover {
     .cause-left img{
         display: inline-block;
         width: 100%;
-        max-width: 350;
+        max-width: 350px;
     }
     .cause-content {
         display: flex;
@@ -223,6 +232,7 @@ button:hover {
     background-color: var(--color-primary);
 }
 .brend h2 {
+    text-align: center;
     color: var(--color-bg);
 }
 .brend-img {
@@ -442,7 +452,6 @@ footer {
 }
 .menu-item a:hover {
     color: var(--color-two);
-    transform: scale(110%);
 }
 .no-scroll {
     overflow-y: hidden;
