@@ -138,7 +138,6 @@ button:hover {
     background-color: var(--color-primary);
     color: var(--color-bg);
     background-position: 100% -0;
-    /* background-size: 80%; */
     background-repeat: no-repeat;
     background-color: #101c2c!important;
     background-image: url(../assets/fon-welcome.png)!important;
@@ -147,7 +146,9 @@ button:hover {
     max-width: 768px;
 }
 
-/*advantages*/
+/*
+advantages
+*/
 
 .advantages {
     background-color: var(--color-two);
@@ -186,7 +187,9 @@ button:hover {
     justify-content: center;
 }
 
-/*cause*/
+/*
+cause
+*/
 
 .cause-left{
     width: 35%;
@@ -201,16 +204,16 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
-    /* align-items: center; */
     font-size: 18px;
     line-height: 200%;
 }
 .cause-content ul{
     margin: 0;
 }
-
 @media (max-width: 910px) {
     .cause-left{
+        display: flex;
+        justify-content: center;
         width: 85%;
         margin: 0;
         padding: 10px;
@@ -226,7 +229,9 @@ button:hover {
     }
 }
 
-/*brend*/
+/*
+brend
+*/
 
 .brend {
     background-color: var(--color-primary);
@@ -243,7 +248,9 @@ button:hover {
     width: 100%;
 }
 
-/*faq*/
+/*
+faq
+*/
 
 .faq {
     background-color: var(--color-two);
@@ -297,7 +304,9 @@ button:hover {
     border-bottom: 1px solid var(--color-primary);
 }
 
-/*footer*/
+/*
+footer
+*/
 
 footer {
     background-color: var(--color-primary);
@@ -335,7 +344,6 @@ footer {
 .map iframe {
     width: 100%;
 }
-
 .copirating {
     display: flex;
     justify-content: space-between;
@@ -371,11 +379,13 @@ footer {
         flex-direction: column;
     }
     .map {
-        width: 95%;
+        width: 100%;
     }
 }
 
-/*burger*/
+/*
+burger
+*/
 
 @media screen and (max-width: 910px) {
     .nav {
@@ -419,7 +429,6 @@ footer {
 }
 .menu {
     width: 100%;
-    /* height: 100vh;*/
     background-color: white;
     color: #636060;
     position: fixed;
@@ -437,6 +446,7 @@ footer {
 }
 .menu-list {
     padding: 0;
+    margin: 0;
     height: 100vh;
     list-style-type: none;
     color: var(--color-links-nav);;
@@ -457,15 +467,16 @@ footer {
     overflow-y: hidden;
 }
 
+/*
+scrolling
+*/
 
-/*scrolling*/
 .btn-up {
     position: fixed;
     background-color: #c7c5c5;
     right: 30px;
     bottom: 70px;
     border-radius: 8px;
-
     cursor: pointer;
     display: flex;
     align-items: center;
