@@ -130,9 +130,10 @@ button:hover {
     color: var(--color-primary);
 }
 
+/*
+home
+*/
 
-
-/*home*/
 .welcome {
     margin-top: 95px;
     background-color: var(--color-primary);
@@ -381,6 +382,15 @@ footer {
     .map {
         width: 100%;
     }
+}
+
+/*
+service
+*/
+
+.service {
+    margin-top: 95px;
+    background-color: var(--color-bg);
 }
 
 /*
