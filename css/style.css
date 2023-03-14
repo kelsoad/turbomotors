@@ -538,10 +538,10 @@ contact
 .contact-border {
     border: solid 1px var(--color-primary);
     margin: 30px 0;
-    /* border-color: #101c2c; */
 }
 .social {
     background-color: var(--color-two);
+    padding: 50px 0;
 }
 .contact-info {
     display: flex;
@@ -553,6 +553,7 @@ contact
     align-self: center;
 }
 .contact-info-address {
+    line-height: 150%;
     padding-bottom: 30px;
 }
 .contact-info-time {
@@ -565,17 +566,38 @@ contact
 .contact-info-text a:hover {
     color: var(--color-two);
 }
-.social-text {
-    padding: 30px 0;
+.social-text p {
+    margin: 0;
+    margin-bottom: 30px;
 }
-.social li {
-    background-color: var(--color-primary);
-    padding: 5px;
-    border-radius: 5px;
+.social-link a{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-#container-social {
-    gap: 50px;
+#social-link ul{
+    gap: 30px;
 }
+#social-link a :hover{
+    filter: brightness(0) saturate(100%)
+}
+@media (max-width: 910px) {
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* .social img { */
+    /* background-color: var(--color-two); */
+    /* padding: 5px; */
+    /* border-radius: 5px; */
+/* } */
+
 /*
 burger
 */
