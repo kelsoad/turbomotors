@@ -768,7 +768,7 @@ burger
     transition: 0.3s;
 }
 .menu li {
-    color: var(--color-links-nav);
+    color: var(--color-primary);
     justify-content: space-around;
 }
 .menu-open {
@@ -779,7 +779,7 @@ burger
     margin: 0;
     height: 100vh;
     list-style-type: none;
-    color: var(--color-links-nav);
+    color: var(--color-primary);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -788,7 +788,7 @@ burger
 .menu-list a{
     text-decoration: none;
     font: 400 40px "Inika", serif;
-    color: var(--color-links-nav);
+    color: var(--color-primary);
 }
 .menu-item a:hover {
     color: var(--color-two);
