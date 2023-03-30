@@ -8,25 +8,18 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira%20Sans%20Condensed">
-    <!-- <link rel="canonical" href="https://turbomotors.by">
-    <meta name="description" content="Автосервис Турбомоторс производит диагностику и ремонт турбин в Бресте на европейском оборудований. Ремонт актуаторов. Гарантия, качество, недорого." />
-	<meta name="keywords" content="ремонт турбин, диагностика турбин, ремонт актуаторов, очистка геометрии турбины" />
-	<meta property="og:title" content="Ремонт турбин в Бресте. Диагностика и восстановление турбокомпрессоров." />-->
+    <link rel="canonical" href="https://turbomotors.by">
+    <meta name="description" content="Автосервис Турбомоторс производит диагностику и ремонт турбин в Бресте на европейском оборудований. Ремонт актуаторов. Гарантия, качество, недорого.">
+	<meta name="keywords" content="ремонт турбин, диагностика турбин, ремонт актуаторов, очистка геометрии турбины">
+	<meta property="og:title" content="Ремонт турбин в Бресте. Диагностика и восстановление турбокомпрессоров.">
     <link rel="icon" href="./assets/favicon.ico">
-
-		<!-- <meta name="twitter:card" content="summary_large_image" />
-		<meta property="og:type" content="website" />
-		<meta property="og:description" content="Автосервис Турбомоторс производит диагностику и ремонт турбин в Бресте на европейском оборудований. Ремонт актуаторов. Гарантия, качество, недорого." />
-		<meta property="og:url" content="https://turbomotors.by" />
-		<meta itemprop="image" content="https://turbomotors.by/uploads/s/p/j/w/pjw3oys40hq0/img/full_TWR2VQqD.jpg" />
-		<meta property="og:image" content="https://turbomotors.by/uploads/s/p/j/w/pjw3oys40hq0/img/full_TWR2VQqD.jpg" /> -->
-
 </head>
 <body>
+    <div class="btn-up btn-up_hide"></div>
     <header class="header">
         <div class="container" id="header">
             <div class="logo">
-                <a href="#"><img src="./assets/logo.png" alt="turbomotors.by"></a>
+                <a href="index.html"><img src="./assets/logo.png" alt="turbomotors.by"></a>
                 <div class="logo-name">
                     <a href="tel:+375298074747">+375 (29) 807-47-47</a><br>
                     Брест, Краснознамённая 6а/3
@@ -34,10 +27,10 @@
             </div>
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#" id="head" class="nav-link nav-link-hover">Главная</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">О сервисе</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Услуги</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+                    <li class="nav-item"><a href="index.html" id="head" class="nav-link nav-link-hover">Главная</a></li>
+                    <li class="nav-item"><a href="service.html" class="nav-link">О сервисе</a></li>
+                    <li class="nav-item"><a href="uslugi.html" class="nav-link">Услуги</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Контакты</a></li>
                 </ul>
             </nav>
             <div class="burger">
@@ -48,10 +41,10 @@
             </div>
             <nav class="menu">
             <ul class="menu-list">
-                <li class="menu-item"><a href="#" class="nav-link">Главная</a></li>
-                <li class="menu-item"><a href="#" class="nav-link">О сервисе</a></li>
-                <li class="menu-item"><a href="#" class="nav-link">Услуги</a></li>
-                <li class="menu-item"><a href="#" class="nav-link">Контакты</a></li>
+                <li class="menu-item"><a href="index.html" class="nav-link">Главная</a></li>
+                <li class="menu-item"><a href="service.html" class="nav-link">О сервисе</a></li>
+                <li class="menu-item"><a href="uslugi.html" class="nav-link">Услуги</a></li>
+                <li class="menu-item"><a href="uslugi.html" class="nav-link">Контакты</a></li>
             </ul>
             </nav>
         </div>
@@ -63,7 +56,9 @@
                     <h1>РЕМОНТ ТУРБИН В БРЕСТЕ</h1>
                     <p>Компания Turbomotors уже более 10 лет специализируется на ремонте турбин всех популярных марок легковых автомобилей, а так же фургонов, грузовиков, дорожно-строительной и сельскохозяйственной техники. </p>
                     <p>Наши специалисты прошли обучение у изготовителя турбокомпрессоров BorgWarner Turbo Systems и знают толк в диагностике неисправностей турбин KKK BorgWarner, GARRETT, Schwitzer, HOLSET, Mitsubishi и других производителей.</p>
-                    <button>Получить консультацию</button>
+                    <div class="btn">
+                        <a href="contact.html" class="button-yell">Получить консультацию</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -164,8 +159,8 @@
                             <li>Люфт электронного актуатора выше нормы</li>
                         </ul>
                     </div>
-                <div class="cause-button">
-                    <button>Наши услуги</button>
+                <div class="btn" id="btn-uslugi">
+                    <a href="uslugi.html" class="button-yell">Наши услуги</a>
                 </div>
             </div>
         </section>
@@ -184,7 +179,6 @@
                     <div class="faq-question-item" data-type="faq1">
                         <p>Производите ли вы монтаж/демонтаж турбокомпрессора?</p>
                         <div class="img-arrow" data-type="faq1"></div>
-                        <!-- <img src="./assets/arrow.png" alt="Турбомоторс стрелка"  data-type="faq1"> -->
                     </div>
                     <div class="faq-answer faq-answer-none" data-type="faq1">Да. На нашем сервисе мы производим ремонт турбины под ключ. Вы пригоняете автомобиль, мы производим демонтаж, ремонт и балансировку турбины с последующим монтажом. Все работы мы стараемся выполнить в кратчайшие сроки</div>
                 </div>
@@ -193,7 +187,6 @@
                     <div class="faq-question-item" data-type="faq2">
                         <p>Какова стоимость ремонта турбины?</p>
                         <div class="img-arrow" data-type="faq2"></div>
-                        <!-- <img src="./assets/arrow.png" alt="Турбомоторс стрелка" data-type="faq2"> -->
                     </div>
                     <div class="faq-answer faq-answer-none"  data-type="faq2">Стоимость ремонта турбины величина относительная  – такая же, как и средняя цена за поход к стоматологу. Определяющим фактором цены является правильная диагностика неисправностей турбокомпрессора. Она может составить 100 рублей, если ремонт обойдётся только чисткой геометрии, а может и превысить 500 рублей, если будут заменены все основные узлы турбины.</div>
                 </div>
@@ -202,7 +195,6 @@
                     <div class="faq-question-item" data-type="faq3">
                         <p>Каковы условия гарантии на ремонт турбины?</p>
                         <div class="img-arrow" data-type="faq3"></div>
-                        <!-- <img src="./assets/arrow.png" alt="Турбомоторс стрелка" data-type="faq3"> -->
                     </div>
                     <div class="faq-answer faq-answer-none" data-type="faq3">На ремонт турбины мы предоставляем гарантию 1 год без ограничения пробега. Подразумевается, что турбина будет установлена правильно и вы будете соблюдать рекомендации по эксплуатации автомобиля с турбонагнетателем.</div>
                 </div>
@@ -211,7 +203,6 @@
                     <div class="faq-question-item" data-type="faq4">
                         <p>Могу ли я забрать отремонтированную турбину либо автомобиль в выходной день?</p>
                         <div class="img-arrow" data-type="faq4"></div>
-                        <!-- <img src="./assets/arrow.png" alt="Турбомоторс стрелка" data-type="faq4"> -->
                     </div>
                     <div class="faq-answer faq-answer-none" data-type="faq4">В некоторых случаях мы можем войти в положение клиента и выйти на работу в выходной день для выдачи отремонтированной турбины либо транспортного средства.</div>
                 </div>
@@ -220,11 +211,12 @@
                     <div class="faq-question-item" data-type="faq5">
                         <p>Предоставляете ли вы рассрочку на ремонт турбины?</p>
                         <div class="img-arrow" data-type="faq5"></div>
-                        <!-- <img src="./assets/arrow.png" alt="Турбомоторс стрелка" data-type="faq5"> -->
                     </div>
                     <div class="faq-answer faq-answer-none" data-type="faq5">Сейчас мы работаем над этим вопросом. Уже в ближайшем будущем мы будем предоставлять возможность оплаты ремонта турбины картами рассрочки.</div>
                 </div>
-                <button id="faq-button">Задать свой вопрос</button>
+                <div class="btn">
+                    <a href="mailto:remont@turbomotors.by" class="button-white">Получить консультацию</a>
+                </div>
             </div>
         </section>
     </main>
@@ -245,7 +237,7 @@
                     </div>
                 </div>
                 <div class="map">
-                    <iframe src="https://yandex.by/map-widget/v1/?from=api-maps&ll=23.718910%2C52.086499&mode=search&oid=46038515060&ol=biz&origin=jsapi_2_1_79&z=16.99"  height="255" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                    <iframe src="https://yandex.by/map-widget/v1/?from=api-maps&ll=23.718910%2C52.086499&mode=search&oid=46038515060&ol=biz&origin=jsapi_2_1_79&z=16.99"  height="255"></iframe>
                 </div>
             </div>
             <div class="copirating">
@@ -269,7 +261,6 @@
             </div>
         </div>
     </footer>
-    <div class="btn-up btn-up_hide"></div>
     <script src="./js/index.js"></script>
 </body>
 </html>
