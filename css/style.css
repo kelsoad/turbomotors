@@ -713,6 +713,22 @@ contact
         align-items: center;
     }
 }
+/*
+404
+*/
+.error-page {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.error-h {
+    font-size: 6em;
+}
+.error-text {
+    font-size: 2em;
+}
+
 
 /*
 burger
